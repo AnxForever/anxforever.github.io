@@ -105,6 +105,21 @@ search:
   content: true
   format: html
 
+# Sitemap
+sitemap:
+  path: sitemap.xml
+  rel: false
+
+# RSS Feed
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  content: true
+  content_limit: 140
+  content_limit_delim: ' '
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
